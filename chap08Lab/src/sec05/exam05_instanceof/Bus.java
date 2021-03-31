@@ -1,0 +1,16 @@
+package sec05.exam05_instanceof;
+
+public class Bus implements Vehicle {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("버스가 달립니다.");
+	}
+
+	public void checkFare() {
+		// TODO Auto-generated method stub
+		System.out.println("승차요금을 체크합니다.");
+	}
+
+}
