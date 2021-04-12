@@ -4,8 +4,6 @@ public abstract class Anonymous implements Calculatable{
 	
 	int field;
 	
-	
-	
 	//메소드
 	public void method(int arg1, int arg2) {
 		int var1 = 0;
@@ -14,7 +12,7 @@ public abstract class Anonymous implements Calculatable{
 		field = 10;
 		
 		//Local variable arg1 defined in an enclosing scope must be final or effectively final
-		//arg1 = 20;
+		//arg1 = 20; x
 		var1 = 30;
 		
 		//로컬변수 clalc에 익명구현객체를 대입시킨다.
@@ -26,6 +24,4 @@ public abstract class Anonymous implements Calculatable{
 			}
 		};
 	}
-
-
 }
